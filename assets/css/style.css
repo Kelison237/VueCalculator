@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    display: grid;
+    min-height: 100%;
+    place-items: center;
+    background-color: #355c7d;
+    font-family: 'Poppins',sans-serif;
+}
+
+.btnSpace {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.buttonSpace button {
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    background-color: #f67280;
+    width: 50px;
+    font-family: 'Poppins',sans-serif;
+}
+.screen {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    color: white;
+    background-color: #f67280;
+    margin: 5px;
+    border-radius: 3px;
+    font-family: 'Poppins';
+}
+.buttonSpace .diffBg {
+    color: white;
+    background-color: #654379;
+}
+.buttonSpace button:active {
+    /* padding: 4px; */
+    background-color: #355c7d;
+}
+h2 {
+    font-family: 'Comfortaa',sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+h2 a {
+    color: grey;
+    text-decoration: none;
+}
